@@ -1,13 +1,12 @@
-var Logger = require('./Logger');
-var Shopper = require('./Shopper');
-var Store = require('./Store');
+const logger = require('./Logger');
+const Shopper = require('./Shopper');
+const Store = require('./Store');
 
-var logger = new Logger();
 
 logger.log('starting app...');
 
-var alex = new Shopper('alex', 500)
-var ski_shop = new Store('Steep and Deep Supplies', [
+const alex = new Shopper('alex', 500)
+const ski_shop = new Store('Steep and Deep Supplies', [
     {
         item: 'Downhill Skis',
         qty: 5,

@@ -1,6 +1,5 @@
-var Logger = require('./Logger');
+const logger = require('./Logger');
 
-var logger = new Logger();
 
 class Store {
 
